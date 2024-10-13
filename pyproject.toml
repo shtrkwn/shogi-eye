@@ -1,0 +1,9 @@
+[project]
+name = "shogi-eye"
+version = "0.1.0"
+description = "An application that identifies the piece positions and each player's captured pieces from an image of a shogi board."
+readme = "README.md"
+authors = [{ name = "Shotaro Kawano", email = "shotaro.kawano.dev@gmail.com" }]
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["opencv-python >= 4.5.3", "numpy < 2.0.0", "click >= 8.0.0"]
